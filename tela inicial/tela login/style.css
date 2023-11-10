@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Tela\ Inicial.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: end;
+}
+
+header p{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.logo{
+    padding: 0px 12px;
+}
+
+main{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .text{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 4px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.description{
+    font-size: 16px;
+}
+
+main .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
+
+input::placeholder{
+    color: white;
+}
+
+hr{
+    border-color: white;
+    border-style: solid;
+    height: 1px;
+}
+
+
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+}
