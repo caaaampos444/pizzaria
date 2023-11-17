@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Tela\ Home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    padding: 26px 22px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.home{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.foto{
+    padding: 0px 26px;
+}

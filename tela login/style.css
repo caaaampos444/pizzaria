@@ -107,7 +107,7 @@ input::placeholder{
     align-items: center;
 }
 
-.botao p{
+.botao a{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #F27706;
