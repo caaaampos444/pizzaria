@@ -10,10 +10,20 @@ body{
     background-size: cover;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 18vh;
+    width: 100vw;
+    align-items: center;
+}
+
 header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100vw;
 }
 
 .text{
@@ -29,4 +39,166 @@ header nav{
 
 .foto{
     padding: 0px 26px;
+}
+
+#input{
+    background-image: url(./img/Input.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    width: 85%;
+    padding: 0px 14px;
+    color: #999999;
+}
+
+#input::placeholder{
+    color: #999999;
+}
+
+main{
+    height: 74vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    gap: 42px;
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+    background-color: #F93030;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.fav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pizzas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.pizzas img{
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.recomendados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bebidas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coca{
+    height: 70px;
+    width: 314px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.coca nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos_title{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.produtos_description{
+    width: 70%;
+    font-size: 12px;
+}
+
+.preco{
+    place-self: end;
+    background-color: #F01212;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 20px;
+}
+
+.preco p{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+footer{
+    height: 8vh;
+    width: 100vw;
+    background-color: #F27706;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    gap: 4px;
 }
