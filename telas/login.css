@@ -139,6 +139,11 @@ footer{
     gap: 14px;
 }
 
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
 .ainda{
     font-size: 14px;
     font-weight: 400;
